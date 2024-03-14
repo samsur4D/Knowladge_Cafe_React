@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/HFYwrkN/daria-nepriakhina-zo-CDWPui-Ru-A-unsplash.jpg",
+      "author_image": "https://i.ibb.co/mRVjqQ9/christina-wocintechchat-com-0-Zx1b-Dv5-BNY-unsplash.jpg",
+      "author_name": "Samantha Smith",
+      "posted_date": "March 14, 2024",
+      "reading_time": 32,
+      "hashtags": ["#fiction", "#fantasy", "#adventure"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/ZRsrW0q/daria-nepriakhina-x-Y55b-L5m-ZAM-unsplash.jpg",
+      "author_image": "https://i.ibb.co/XFjzFYc/michael-dam-m-EZ3-Po-FGs-k-unsplash.jpg",
+      "author_name": "John Doe",
+      "posted_date": "March 10, 2024",
+      "reading_time": 23,
+      "hashtags": ["#mystery", "#thriller", "#crime"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/W62vVR9/campaign-creators-g-Msn-Xq-ILjp4-unsplash.jpg",
+      "author_image": "https://i.ibb.co/XXr73RZ/linkedin-sales-solutions-p-At-A8xe-i-VM-unsplash.jpg",
+      "author_name": "Emily Johnson",
+      "posted_date": "March 8, 2024",
+      "reading_time": 34,
+      "hashtags": ["#romance", "#contemporary", "#drama"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/Vgps3fh/cherrydeck-r-MILC1-PIw-M0-unsplash.jpg",
+      "author_image": "https://i.ibb.co/LNskMxb/itay-verchik-G3-ZAh-AJ2ojc-unsplash.jpg",
+      "author_name": "Michael Brown",
+      "posted_date": "March 5, 2024",
+      "reading_time": 54,
+      "hashtags": ["#sciencefiction", "#space", "#technology"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/txFsXcD/slidebean-tsb-G-H3-Pc-g-unsplash.jpg",
+      "author_image": "https://i.ibb.co/bW57jhs/aslan-kumarov-Fs-Wi0s-Boi8c-unsplash.jpg",
+      "author_name": "Sarah Lee",
+      "posted_date": "March 1, 2024",
+      "reading_time": 17,
+      "hashtags": ["#horror", "#suspense", "#supernatural"]
+    }
+  ]
+  

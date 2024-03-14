@@ -3,12 +3,13 @@
 
 import pic from '../../assets/images/Vector.svg'
 import PropTypes from 'prop-types';
+import { FaBookmark } from 'react-icons/fa';
 
 const Blog = ({ blog , handelAddBookmark}) => {
     const {title,cover,reading_time,author_image,author_name,posted_date,hashtags} = blog;
     return (
         <div className='mb-20'>
-            <img className='w-[845px] rounded-lg' src={cover} alt={`Cover picture of the title ${title}`}/>
+            <img className='w-full rounded-lg' src={cover} alt={`Cover picture of the title ${title}`}/>
             <div className='flex justify-between items-center mt-3'>
                      <div className='flex items-center gap-2'>
                             <img className='rounded-full w-14 h-20' src={author_image} alt="" />
@@ -19,8 +20,7 @@ const Blog = ({ blog , handelAddBookmark}) => {
                      </div>
                      <div className='flex items-center'>
                                 <span>{reading_time}min read</span> 
-                                <button onClick={() => handelAddBookmark(blog)} className='text-2xl'>
-                                         <img className='ml-2 mr-2 ' src={pic} alt="" /></button>  
+                                <button onClick={() => handelAddBookmark(blog)} className='ml-2 text-red-500 text-3xl'><FaBookmark></FaBookmark></button>
                      </div>
             </div>
             <h2 className='text-4xl'>{title}</h2>

@@ -11,11 +11,19 @@ import Bookmark from './components/Bookmark/Bookmark'
 function App() {
 
   const [bookmarks,setBookmarks] = useState([]);
+  const [readingTime , setReadingTime] = useState(0)
 
   const handelAddBookmark = blog =>{
-    const [newBookmarks] = [...bookmarks, blog];
+    //  console.log(blog);
+    const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   }
+
+  const handelMarkAsRead = time =>{
+    const newReadingTime = readingTime + time ;
+    setReadingTime(newReadingTime);
+  }
+
 
   return (
     <>
@@ -23,8 +31,8 @@ function App() {
       {/* লোড করা ডাটা গুলো দেখাতে হলে */}
       
       <div className='md:flex max-w-7xl mx-auto'>
-      <Blogs handelAddBookmark={handelAddBookmark}></Blogs>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+      <Blogs handelAddBookmark={handelAddBookmark} handelMarkAsRead={handelMarkAsRead} ></Blogs>
+      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       
       </div>
     </>
